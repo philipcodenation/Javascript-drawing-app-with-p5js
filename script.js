@@ -2,7 +2,7 @@ let lastPos = {x:0, y:0};
 
 function setup() {
 	createCanvas(window.innerWidth, window.innerHeight);
-    background(240,240,220);
+    background(0,240,0);
     text("press any key to clear",10,10);
 }
 
@@ -15,7 +15,7 @@ function mouseMoved() {
 }
 
 function keyPressed() {
-    background(random(255),random(255),random(255));
+    // background(random(255),random(0),random(255));
 }
 
 function mousePressed() {
